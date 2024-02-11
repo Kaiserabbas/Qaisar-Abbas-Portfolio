@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/Images/KAISER-2.png" alt="qaisar Logo" height="auto" width ="600px">
+  <img src="/Images/KAISER-2.png" alt="qaisar Logo" height="auto" width ="400px">
 </p>
 
 <p align="center">
