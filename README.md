@@ -1,6 +1,6 @@
 <h1 align="center">Qaisar Abbas - Full Stack Developer</h1>
 <p align="center">
-  <img src="/Images/KAISER-2.png" alt="qaisar Logo">
+  <img src="/Images/KAISER-2.png" alt="qaisar Logo" height="500px">
 </p>
 
 <p align="center">
