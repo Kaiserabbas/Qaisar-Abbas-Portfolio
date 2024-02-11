@@ -82,14 +82,5 @@
 </li>
 <li><a href="https://github.com/Kaiserabbas/leaderboard">Leaderboard API service</a>The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 </li>
-<li><a href="#">Project 3</a> - Description of Project 3</li>
-<li><a href="#">Project 3</a> - Description of Project 3</li>
-
+<li><a href="https://github.com/Kaiserabbas/myday-todo">To-Do List</a>The To-Do List Website is a simple and easy-to-use website that allows you to keep track of your tasks. You can create tasks, set deadlines, and prioritize your tasks. You can also view your tasks in a variety of ways, such as by due date, priority, or category. The To-Do List Website is the perfect way to stay organized and on top of your tasks.
 </li>
-  <li><a href="#">Project 3</a> - Description of Project 3</li>
-  <!-- Add more projects with their descriptions and GitHub links -->
-</ul>
-</li>
-  <li><a href="#">Project 3</a> - Description of Project 3</li>
-  <!-- Add more projects with their descriptions and GitHub links -->
-</ul>
