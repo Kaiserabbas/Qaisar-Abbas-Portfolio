@@ -51,8 +51,9 @@
 <h2>Projects</h2>
 
 <ul>
+<li><a href="https://github.com/Kaiserabbas/motorcycle_booking_front_end">Motorcycle Booking / Reservation</a>This Final Capstone Project is a web application that allows users to book an appointment to try a motorcycle. We have followed the design guidelines provided to us, but we have also added some personal touches to the content.
+</li>
 <li><a href="https://github.com/Kaiserabbas/Budgetify">Budgetify</a>The Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
-
 </li>
 <li><a href="https://github.com/Kaiserabbas/food_recipe">Blog App</a>The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.
 </li>
@@ -84,5 +85,4 @@
 </li>
 <li><a href="https://github.com/Kaiserabbas/myday-todo">To-Do List</a>The To-Do List Website is a simple and easy-to-use website that allows you to keep track of your tasks. You can create tasks, set deadlines, and prioritize your tasks. You can also view your tasks in a variety of ways, such as by due date, priority, or category. The To-Do List Website is the perfect way to stay organized and on top of your tasks.
 </li>
-<li><a href="https://github.com/Kaiserabbas/motorcycle_booking_front_end">Motorcycle Booking / Reservation</a>This Final Capstone Project is a web application that allows users to book an appointment to try a motorcycle. We have followed the design guidelines provided to us, but we have also added some personal touches to the content.
-</li>
+</ul>
