@@ -86,3 +86,8 @@
 <li><a href="https://github.com/Kaiserabbas/myday-todo">To-Do List</a>The To-Do List Website is a simple and easy-to-use website that allows you to keep track of your tasks. You can create tasks, set deadlines, and prioritize your tasks. You can also view your tasks in a variety of ways, such as by due date, priority, or category. The To-Do List Website is the perfect way to stay organized and on top of your tasks.
 </li>
 </ul>
+
+## GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api/top-langs?username=Kaiserabbas&show_icons=true&locale=en&layout=compact&theme=light) <br/>
+
