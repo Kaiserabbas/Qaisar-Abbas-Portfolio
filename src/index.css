@@ -5,5 +5,5 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgba(70, 131, 180, 0.775), #eee);
+  background-image: linear-gradient(to left, steelblue, #eee);
 }
