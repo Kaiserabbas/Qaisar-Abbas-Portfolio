@@ -12,10 +12,11 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
+  font-weight: bold !important;
 }
 
 .tech {
-  color: var(--imp-tech-color) !important;
+  color: var(--imp-grey-color) !important;
 }
 
 button:focus {
