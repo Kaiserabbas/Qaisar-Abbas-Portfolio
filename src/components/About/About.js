@@ -8,13 +8,13 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
-function Home2() {
+function About() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2em" }}>
                <span className="tech"> ABOUT </span> ME
             </h1>
             <p className="home-about-body">
@@ -56,7 +56,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h2>FIND ME ON</h2>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
@@ -108,4 +108,4 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+export default About;
