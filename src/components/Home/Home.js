@@ -13,15 +13,18 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 className="heading-name">
-                I'm
+                I&apos;m
                 <strong className="main-name"> Qaisar </strong>
               </h1>
               <h2 style={{ paddingBottom: 15 }} className="heading">
-                Software Developer | Code Reviewer | Team Player | Remote Cross-cultural Collaboration
+                Software Developer | Code Reviewer | Team Player | Remote Cross-cultural
+                Collaboration
                 {' '}
               </h2>
               <p style={{ paddingBottom: 5 }} className="paragraph">
-                I can help you build a product, a feature or a website. Look through some of my work and experience. If you like what you see and have a project you need coded, don't hestiate to contact me.
+                I can help you build a product, a feature or a website. Look through some of my work
+                and experience. If you like what you see and have a project you need coded,
+                don&apos;t hestiate to contact me.
               </p>
 
               <div style={{ padding: 50, textAlign: 'left' }}>
