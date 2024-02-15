@@ -20,11 +20,14 @@ function About() {
               ME
             </h1>
             <p className="home-about-body">
-              I'm Qaisar, your app developer. I sculpt pixels into front-end landscapes and forge backend logic into steel beams, crafting seamless experiences that feel as natural as a sunrise.
-
+              I&apos;m Qaisar, your app developer. I sculpt pixels into front-end landscapes
+              and forge backend logic into steel beams,crafting seamless experiences that feel
+              as natural as a sunrise.
               <br />
               <br />
-              With a dynamic background in both software development and agriculture, I bring a unique blend of technical expertise and industry experience. As a dedicated Software Developer, I've developed extensive knowledge in:
+              With a dynamic background in both software development and agriculture, I bring a
+              unique blend of technical expertise and industry experience. As a dedicated
+              Software Developer, I&apos;ve developed extensive knowledge in:
               <br />
               <br />
               <i>
@@ -58,7 +61,10 @@ function About() {
               </i>
               <br />
               <br />
-              I'm always eager to learn, experiment, and grow, embracing every opportunity to contribute meaningfully to the tech world. If you'd like to get in contact about potential job opportunities, please reach out!' or 'I love talking with other devs, feel free to connect if you'd like to chat.
+              I&apos;m always eager to learn, experiment, and grow, embracing every opportunity
+              to contribute meaningfully to the tech world. If you&apos;d like to get in contact
+              about potential job opportunities, please reach out! or I love talking with other
+              devs, feel free to connect if you&apos;d like to chat.
             </p>
           </Col>
           <Col md={3} className="myAvtar">
