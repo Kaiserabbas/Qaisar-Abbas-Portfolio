@@ -10,12 +10,12 @@ import {
   DiRuby,
   DiOnedrive,
   DiBootstrap,
-  DiDocker, DiGitBranch, DiGitCommit, DiGitMerge, DiGitPullRequest, DiPhotoshop, DiResponsive, DiSass,
+  DiDocker, DiGitBranch, DiGitCommit, DiGitMerge,
+  DiGitPullRequest, DiPhotoshop, DiResponsive, DiSass,
 } from 'react-icons/di';
 import {
   SiPostgresql,
 } from 'react-icons/si';
-import { TbBrandGolang } from 'react-icons/tb';
 
 function Techstack() {
   return (
