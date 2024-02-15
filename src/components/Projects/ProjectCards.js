@@ -1,33 +1,34 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { CgWebsite } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs';
 
-function ProjectCards(props) {
+function ProjectCards({
+  imgPath, title, description, ghLink, isBlog, demoLink,
+}) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" src={imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title className="purple">{props.title}</Card.Title>
+        <Card.Title className="purple">{title}</Card.Title>
         <Card.Text className="tech" style={{ textAlign: 'justify' }}>
-          {props.description}
+          {description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
+        <Button variant="primary" href={ghLink} target="_blank">
           <BsGithub />
           {' '}
 &nbsp;
-          {props.isBlog ? 'Blog' : 'GitHub'}
+          {isBlog ? 'Blog' : 'GitHub'}
         </Button>
         {'\n'}
         {'\n'}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
+        {!isBlog && demoLink && (
           <Button
             variant="primary"
-            href={props.demoLink}
+            href={demoLink}
             target="_blank"
             style={{ marginLeft: '10px' }}
           >
@@ -41,4 +42,17 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
+ProjectCards.propTypes = {
+  imgPath: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  ghLink: PropTypes.string.isRequired,
+  isBlog: PropTypes.bool.isRequired,
+  demoLink: PropTypes.string,
+};
+ProjectCards.defaultProps = {
+  demoLink: null, // or provide a default value if needed
+};
+
 export default ProjectCards;
