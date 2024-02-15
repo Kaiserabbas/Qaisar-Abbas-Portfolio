@@ -160,6 +160,7 @@ button:focus {
 .logo {
   height: auto !important;
   width: 12em;
+  margin: -0.5em 0 0 2em !important;
 }
 
 .navbar-nav .nav-link {
