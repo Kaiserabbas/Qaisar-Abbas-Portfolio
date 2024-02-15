@@ -1,14 +1,14 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import {
   AiFillGithub,
   AiOutlineTwitter,
-} from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+} from 'react-icons/ai';
+import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
@@ -16,15 +16,20 @@ function Footer() {
           <h3>Designed and Developed by Qaisar Abbas</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright &copy; {year} Mirqal SoftTech. All rights reserved.</h3>
+          <h3>
+            Copyright &copy;
+            {year}
+            {' '}
+            Mirqal SoftTech. All rights reserved.
+          </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/Kaiserabbas"
-                style={{ color: "white" }}
-                target="_blank" 
+                style={{ color: 'white' }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -33,8 +38,8 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://twitter.com/AbbasKayser"
-                style={{ color: "white" }}
-                target="_blank" 
+                style={{ color: 'white' }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -43,23 +48,23 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/kaisar-abbas/"
-                style={{ color: "white" }}
-                target="_blank" 
+                style={{ color: 'white' }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
-               <li className="social-icons">
-                <a
-                  href="https://www.facebook.com/Kayser.qaas/"
-                style={{ color: "white" }}
-                target="_blank" 
+            <li className="social-icons">
+              <a
+                href="https://www.facebook.com/Kayser.qaas/"
+                style={{ color: 'white' }}
+                target="_blank"
                 rel="noopener noreferrer"
-                >
-                  <FaFacebookF />
-                </a>
-              </li>
+              >
+                <FaFacebookF />
+              </a>
+            </li>
           </ul>
         </Col>
       </Row>

@@ -1,5 +1,5 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 import {
   DiReact,
   DiJavascript,
@@ -10,16 +10,16 @@ import {
   DiRuby,
   DiOnedrive,
   DiBootstrap,
-  DiDocker, DiGitBranch, DiGitCommit, DiGitMerge, DiGitPullRequest, DiPhotoshop, DiResponsive, DiSass
-} from "react-icons/di";
+  DiDocker, DiGitBranch, DiGitCommit, DiGitMerge, DiGitPullRequest, DiPhotoshop, DiResponsive, DiSass,
+} from 'react-icons/di';
 import {
   SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+} from 'react-icons/si';
+import { TbBrandGolang } from 'react-icons/tb';
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -29,7 +29,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript />
       </Col>
-       <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -45,7 +45,7 @@ function Techstack() {
         <DiOnedrive />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDatabase/>
+        <DiDatabase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />

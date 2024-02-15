@@ -1,13 +1,13 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import cuisine from "../../Assets/Projects/cuisine.png";
-import space from "../../Assets/Projects/space.png";
-import math from "../../Assets/Projects/math.png";
-import motorcycle from "../../Assets/Projects/motorcycle.png";
-import book from "../../Assets/Projects/book.png";
-import crypto from "../../Assets/Projects/crypto.png";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from './ProjectCards';
+import Particle from '../Particle';
+import cuisine from '../../Assets/Projects/cuisine.png';
+import space from '../../Assets/Projects/space.png';
+import math from '../../Assets/Projects/math.png';
+import motorcycle from '../../Assets/Projects/motorcycle.png';
+import book from '../../Assets/Projects/book.png';
+import crypto from '../../Assets/Projects/crypto.png';
 
 function Projects() {
   return (
@@ -15,12 +15,14 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Some Completed <strong className="purple">Projects </strong>
+          Some Completed
+          {' '}
+          <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "steelblue" }}>
+        <p style={{ color: 'steelblue' }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={motorcycle}
@@ -72,10 +74,10 @@ function Projects() {
               title="Space Travelers' Hub"
               description="It works with the real live data from the SpaceX API. The task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions."
               ghLink="https://space-travelers-hub.pages.dev/"
-              demoLink="https://space-travelers-hub.pages.dev/" 
+              demoLink="https://space-travelers-hub.pages.dev/"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={math}
@@ -83,7 +85,7 @@ function Projects() {
               title="Calculator and Quotes"
               description="It contains React component that will hold the core functionality: a calculator. I have added the logic needed to make the Calculator component to actually work and fetched data from an external API to display quotes alongside your calculator."
               ghLink="https://github.com/Kaiserabbas/math-magician"
-              demoLink="https://math-magician.pages.dev/"              
+              demoLink="https://math-magician.pages.dev/"
             />
           </Col>
         </Row>

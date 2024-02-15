@@ -1,10 +1,16 @@
 html {
-  --section-background-color: linear-gradient(to bottom left,
+  --section-background-color:
+    linear-gradient(
+      to bottom left,
       #eee,
-      rgba(70, 131, 180, 0.75));
-  --image-gradient: linear-gradient(to bottom left,
+      rgba(70, 131, 180, 0.75)
+    );
+  --image-gradient:
+    linear-gradient(
+      to bottom left,
       #eee,
-      rgba(70, 131, 180, 0.75));
+      rgba(70, 131, 180, 0.75)
+    );
   --imp-text-color: steelblue;
   --imp-tech-color: #555;
   --imp-grey-color: #444;
@@ -24,7 +30,9 @@ button:focus {
 }
 
 /* --------- */
+
 /*  Preloader */
+
 /* --------- */
 #preloader {
   position: fixed;
@@ -49,7 +57,9 @@ button:focus {
 }
 
 /* --------- */
-/*Scrollbar   */
+
+/* Scrollbar   */
+
 /* --------- */
 
 ::-webkit-scrollbar {
@@ -74,12 +84,14 @@ button:focus {
 }
 
 /* --------- */
+
 /* Navbar Section  */
+
 /* --------- */
 .sticky {
   background-color: rgba(70, 131, 180, 0.501) !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 0px 5px 0px rgba(70, 131, 180, 0.501) !important;
+  box-shadow: 0 0 5px 0 rgba(70, 131, 180, 0.501) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -115,7 +127,6 @@ button:focus {
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
   transition: transform 0.35s ease-in-out !important;
 }
 
@@ -163,7 +174,7 @@ button:focus {
   margin: -0.5em 0 0 2em !important;
 }
 
-.navbar-nav .nav-link {
+.nav-link .navbar-nav {
   color: var(--imp-grey-color) !important;
   font-weight: bold;
   padding-right: 1rem !important;
@@ -211,16 +222,22 @@ button:focus {
 }
 
 /* --------- */
+
 /* Home section */
+
 /* --------- */
 .wave {
   animation-name: wave-animation;
+
   /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s;
+
   /* Change to speed up or slow down */
   animation-iteration-count: infinite;
+
   /* Never stop waving :) */
   transform-origin: 70% 70%;
+
   /* Pivot around the bottom-left palm */
   display: inline-block;
 }
@@ -433,7 +450,9 @@ button:focus {
 }
 
 /* --------- */
+
 /* Footer */
+
 /* --------- */
 .footer {
   background-color: rgba(70, 131, 180, 0.8);
@@ -479,7 +498,9 @@ button:focus {
 }
 
 /* --------- */
+
 /* Projects */
+
 /* --------- */
 .project-section {
   position: relative !important;
@@ -549,9 +570,9 @@ button:focus {
 }
 
 .blog-img {
-  padding: 0px !important;
+  padding: 0 !important;
   opacity: 0.8 !important;
-  border-radius: 0px !important;
+  border-radius: 0 !important;
 }
 
 .btn-primary {
@@ -579,7 +600,9 @@ button:focus {
 }
 
 /* --------- */
+
 /* About */
+
 /* --------- */
 
 .about-section {
@@ -641,7 +664,9 @@ button:focus {
 }
 
 /* --------- */
+
 /* Resume */
+
 /* --------- */
 
 .resume-section {
