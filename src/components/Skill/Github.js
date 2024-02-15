@@ -7,13 +7,9 @@ function Github() {
 
   useEffect(() => {
     async function fetchStats() {
-      try {
-        const response = await fetch('https://api.github.com/users/Kaiserabbas/repos');
-        const data = await response.json();
-        setStats(data);
-      } catch (error) {
-        console.error('Error fetching GitHub stats:', error);
-      }
+      const response = await fetch('https://api.github.com/users/Kaiserabbas/repos');
+      const data = await response.json();
+      setStats(data);
     }
 
     fetchStats();
