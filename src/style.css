@@ -340,6 +340,7 @@ button:focus {
   max-height: 350px;
   border-radius: 20px;
   opacity: 0.85;
+  margin: 0 0 0 2em;
 }
 
 .home-about-social-links {
