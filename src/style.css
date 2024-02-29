@@ -809,11 +809,45 @@ button:focus {
   display: none !important;
 }
 
+/* ----Credentials component----- */
+
 .credentials {
   margin-top: 150px !important;
+}
+
+.credentials-button {
+  outline: none;
+  border: none;
+  background-color: #6da9e900;
 }
 
 .mb-4 {
   gap: 1em;
   box-shadow: 0 4px 8px 0 rgba(70, 131, 180, 0.7) !important;
+  border-radius: 5px !important;
+}
+
+.mb-4:hover {
+  box-shadow: 0 8px 16px 0 rgba(70, 131, 180, 0.7) !important;
+  transform: scale(1.1) !important;
+}
+
+.modal-90w {
+  margin: 0 auto;
+  max-width: 90vw !important;
+}
+
+.modal-backdrop.show {
+  opacity: 0.85;
+  backdrop-filter: blur(10px);
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.close-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
