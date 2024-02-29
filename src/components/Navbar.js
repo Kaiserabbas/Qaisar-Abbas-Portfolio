@@ -15,7 +15,7 @@ import logo from '../Assets/KAISER-2.png';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);
+  const [navColour, updateNavbar] = useState(false);+
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -104,6 +104,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/credentials"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: '2px' }} />
+                {' '}
+                Credentials
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/Kaiserabbas/Qaisar-Abbas-Portfolio"
