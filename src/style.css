@@ -337,7 +337,7 @@ button:focus {
 .developer {
   width: auto;
   height: auto;
-  max-height: 450px;
+  max-height: 350px;
   border-radius: 20px;
   opacity: 0.85;
 }
