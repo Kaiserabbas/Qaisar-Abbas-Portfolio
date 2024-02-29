@@ -22,7 +22,7 @@ function Credentials() {
     <Container className="credentials">
       <Row>
         {credentials.map((credential) => (
-          <Col key={credential.id} md={4} className="mb-4">
+          <Col key={credential.id} md={6} className="mb-4">
             <a href={credential.link} target="_blank" rel="noopener noreferrer">
               <img
                 src={credential.imageUrl}
