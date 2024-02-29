@@ -1,16 +1,12 @@
 html {
   --section-background-color:
-    linear-gradient(
-      to bottom left,
+    linear-gradient(to bottom left,
       #eee,
-      rgba(70, 131, 180, 0.75)
-    );
+      rgba(70, 131, 180, 0.75));
   --image-gradient:
-    linear-gradient(
-      to bottom left,
+    linear-gradient(to bottom left,
       #eee,
-      rgba(70, 131, 180, 0.75)
-    );
+      rgba(70, 131, 180, 0.75));
   --imp-text-color: steelblue;
   --imp-tech-color: #555;
   --imp-grey-color: #444;
@@ -811,4 +807,13 @@ button:focus {
 
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.credentials {
+  margin-top: 150px !important;
+}
+
+.mb-4 {
+  gap: 1em;
+  box-shadow: 0 4px 8px 0 rgba(70, 131, 180, 0.7) !important;
 }
