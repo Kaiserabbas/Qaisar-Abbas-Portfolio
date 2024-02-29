@@ -15,7 +15,7 @@ import logo from '../Assets/KAISER-2.png';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);+
+  const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
