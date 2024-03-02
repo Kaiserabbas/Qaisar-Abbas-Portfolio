@@ -750,6 +750,7 @@ button:focus {
 .mb-4:hover {
   box-shadow: 0 8px 16px 0 rgba(70, 131, 180, 0.7) !important;
   transform: scale(1.1) !important;
+  transition: all 1s ease 0s !important;
 }
 
 .modal-90w {
