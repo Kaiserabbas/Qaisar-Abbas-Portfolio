@@ -772,6 +772,29 @@ button:focus {
   justify-content: center;
 }
 
+.donate-button {
+  color: white !important;
+  font-weight: 300;
+  background-color: steelblue !important;
+  border-color: steelblue !important;
+  padding: 0.25rem 0.98rem !important;
+  border-radius: 5px !important;
+  line-height: 2.5 !important;
+  transition: 0.3s ease !important;
+}
+
+.donate-button:hover {
+  transform: translateY(-2px) !important;
+}
+
+.donate-icon {
+  color: #0105299a !important;
+  font-size: 2em !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  padding: 0 5px !important;
+}
+
 /* media queries */
 
 @media (max-width: 768px) {
