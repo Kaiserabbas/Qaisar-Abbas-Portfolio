@@ -1,12 +1,16 @@
 html {
   --section-background-color:
-    linear-gradient(to bottom left,
+    linear-gradient(
+      to bottom left,
       #eee,
-      rgba(70, 131, 180, 0.75));
+      rgba(70, 131, 180, 0.75)
+    );
   --image-gradient:
-    linear-gradient(to bottom left,
+    linear-gradient(
+      to bottom left,
       #eee,
-      rgba(70, 131, 180, 0.75));
+      rgba(70, 131, 180, 0.75)
+    );
   --imp-text-color: steelblue;
   --imp-tech-color: #555;
   --imp-grey-color: #444;
