@@ -6,6 +6,7 @@ import {
   AiOutlineTwitter,
 } from 'react-icons/ai';
 import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
+import DonationButton from '../Donation/Donation';
 import photo from '../../Assets/photo.png';
 
 function About() {
@@ -122,6 +123,9 @@ function About() {
                 >
                   <FaFacebookF />
                 </a>
+              </li>
+              <li>
+                <DonationButton />
               </li>
             </ul>
           </Col>
